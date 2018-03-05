@@ -1,0 +1,24 @@
+.navbar .navbar-brand{
+color: chocolate;
+font-size: medium;
+
+}
+.bg-dark{
+    background-color: black !important;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    transition: color 1sn ease;
+}
+
+.nav-link:hover{
+    color: chocolate !important;
+
+}
+
+#headerSection{
+    background: url('../imgs/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height:100vh;
+}
