@@ -69,13 +69,47 @@ h3{
         cursor: pointer;
 
 }
-
-
-
 /*aciklama */
 
 #aciklama h2{
 
     border-left: 6px solid chocolate;
-    padding-left: 15px;
+    padding-left: 30px;
+}
+
+#aciklama .col-md-6{
+ display: inline;
+}
+
+#aciklama .btn-outline-success{
+    position: absolute;
+    bottom: 0;
+}
+#aciklama h2{
+    font-size: 28px;
+    color:chocolate;
+    text-transform: uppercase;
+    font-weight: 400px; 
+}
+
+#aciklama p{
+    line-height: 28px;
+}
+
+/* takim */
+
+#takim .card{
+    margin-top: 70px;
+    border: none;
+    opacity: 0.5s;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#takim .card:hover{
+    opacity: 1;
+}
+
+#takim .fa{
+        font-size: 24px;
 }
