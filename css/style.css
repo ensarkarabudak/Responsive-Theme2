@@ -17,8 +17,65 @@ font-size: medium;
 
 }
 
+
+/* HEADER */ 
+
 #headerSection{
     background: url('../imgs/background.jpg') no-repeat center center fixed;
     background-size: cover;
     height:100vh;
+}
+
+#headerSection .row{
+    height: 100vh;
+}
+
+#headerSection .overlay{
+    background-color: rgba(0,0,0, .7);
+
+}
+
+h1 span{
+    color: chocolate;
+}
+
+.btn-outline-success{
+    weight:100px;
+    height:70px;
+padding: 20px;
+margin:20px;
+    cursor: pointer;
+}
+
+/* GENERAL */
+
+h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+
+
+/* FEATURES */
+
+#features .fa{
+    font-size: 40px;
+}
+.features-top{
+    transition: color .5s ease;
+}
+.features-top:hover{
+        color:chocolate;
+        cursor: pointer;
+
+}
+
+
+
+/*aciklama */
+
+#aciklama h2{
+
+    border-left: 6px solid chocolate;
+    padding-left: 15px;
 }
