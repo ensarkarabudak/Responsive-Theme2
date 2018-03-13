@@ -130,6 +130,15 @@ h3{
 #video p{
     color: white;
 }
+#portfo p{
+    color: white;
+    size:30px;
+}
+#portfo h4{
+    color: white;
+    size:45px;
+}
+
 
 #portfo .col-md-3{
  padding-left: 0;
